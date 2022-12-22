@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  conjurdotnetdemo:
+    image: ${DOCKER_REGISTRY-}conjurdotnetdemo
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: ConjurDotNetDemo/Dockerfile
