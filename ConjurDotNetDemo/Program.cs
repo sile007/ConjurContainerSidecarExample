@@ -14,7 +14,8 @@ namespace ConsoleApp1
 
         static string conjurApplianceURL = "";
         static string conjurAccount = "";
-        static string conjurSSLCert = ""; 
+        static string conjurSSLCert = "";
+        static string test = "";
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
